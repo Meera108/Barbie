@@ -20,13 +20,13 @@ module.exports = {
     const name = userData.name;
 
     const ment = [{ id: id, tag: name }];
-    const a = "Anya";
+    const a = "𝗦𝗧𝗥𝗔𝗪𝗕𝗘𝗥𝗥𝗬";
     const b = " + ";
-    const c = "MR PERFECT";
-const e = "Male";
-    const d = "m.me/100087591006635";
-const f = "rx_editz";
-const g = "Single life rocks💀";
+    const c = "𝗠𝗦 𝗠𝗘𝗘𝗥𝗔";
+const e = "𝗙𝗲𝗺𝗮𝗹𝗲";
+    const d = "https://www.facebook.com/The.Meera.X";
+const f = "unavailable";
+const g = "In A Releshionship ❤️";
 
     message.reply({ 
       body: `${name}, here is the information 🌝
