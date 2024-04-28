@@ -21,7 +21,7 @@ module.exports = {
 
     const ment = [{ id: id, tag: name }];
     const a = "𝗦𝗧𝗥𝗔𝗪𝗕𝗘𝗥𝗥𝗬";
-    const b = " + ";
+    const b = " # ";
     const c = "𝗠𝗦 𝗠𝗘𝗘𝗥𝗔";
 const e = "𝗙𝗲𝗺𝗮𝗹𝗲";
     const d = "https://www.facebook.com/The.Meera.X";
@@ -34,7 +34,7 @@ const g = "In A Releshionship ❤️";
 🌸 Bot's prefix: ${b}  
 🌸 Owner: ${c}
 🌸 Gender: ${e}
-🌸 Messenger: ${d}
+🌸 Facebook : ${d}
 🌸 Insta: ${f}
 🌸 Relationship: ${g}`,
 mentions: ment,
