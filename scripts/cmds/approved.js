@@ -80,7 +80,7 @@ module.exports = {
     } else if (data.includes(idBox)) {
       api.sendMessage(`ID ${idBox} was approved before! `, threadID, messageID);
     } else {
-      api.sendMessage("» Box has been approved by admin.\Use help to see more commands.", idBox, (error, info) => {
+      api.sendMessage("» Box has been approved by Meera.\Use help to see more commands.", idBox, (error, info) => {
         if (error) {
           api.sendMessage("An error occurred, make sure that the ID you entered is valid and the bot is in the box! ", threadID, messageID);
         } else {
