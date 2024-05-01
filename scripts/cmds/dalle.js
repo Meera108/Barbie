@@ -19,10 +19,10 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args, message }) {
-    const permission = ["100087591006635"];
+    const permission = ["100000377396525"];
     if (!permission.includes(event.senderID)) {
       api.sendMessage(
-        "~Oh Baka! Seems you don't have permission to use this command!🐱",
+        "Only Meera Can Use This command 😺",
         event.threadID,
         event.messageID
       );
