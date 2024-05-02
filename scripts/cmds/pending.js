@@ -47,7 +47,7 @@ onReply: async function({ api, event, Reply, getLang, commandName, prefix }) {
         const index = body.split(/\s+/);
         for (const singleIndex of index) {
             if (isNaN(singleIndex) || singleIndex <= 0 || singleIndex > Reply.pending.length) return api.sendMessage(getLang("invaildNumber", singleIndex), threadID, messageID);
-            api.sendMessage(`•تم توصيل يوكي بنجاح 🫂🤍:\n\n•إنضموا إلى هنا لمعرفة للمزيد عن البوت:\nhttps://facebook.com/groups/235038219450134/\n\n•أكتب ${prefix}دخول لدخول مجموعة المسنجر 🙂🤍\n\n•أكتب ${prefix}الاوامر لعرض أوامر البوت🫂🌝🤍`, Reply.pending[singleIndex - 1].threadID);
+            api.sendMessage(`•[❤️].<_𝗦𝘁𝗿𝗮𝘄𝗯𝗲𝗿𝗿𝘆_>•:*🍓 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗧𝗢 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 ❤️🍓🤍:\n\n•ʜᴇʀᴇ ɪꜱ ᴍʏ ᴏᴡɴᴇʀ ɪɴꜰᴏ 🪪📍:nhttps://www.facebook.com/The.Meera.X\n\n•𝗠𝗬 𝗣𝗥𝗘𝗙𝗜𝗫 ${prefix} 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙴𝚁𝙰 𝚁𝙰𝙹𝙿𝚄𝚃 ❤️🤍\n\n•ʙᴏxᴄʜᴀᴛ ᴩʀᴇꜰɪx ${prefix} 𝗛𝗔𝗩𝗘 𝗔 𝗚𝗥𝗘𝗔𝗧 𝗗𝗔𝗬 𝗘𝗡𝗝𝗢𝗬 𝗧𝗛𝗘 𝗕𝗢𝗧 🍓🪪🤍`, Reply.pending[singleIndex - 1].threadID);
             count+=1;
         }
         return api.sendMessage(getLang("approveSuccess", count), threadID, messageID);
